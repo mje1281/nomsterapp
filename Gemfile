@@ -39,8 +39,14 @@ gem 'will_paginate', '~> 3.0.5'
 #Gemfile for SimpleForm
 gem 'simple_form'
 
-#Gemile for user authentication
+#Gemfile for user authentication
 gem 'devise', '>= 3.2.4'
+
+#Gemfile for geocoding
+gem "geocoder"
+
+#Gemfile for uploading environtmental variables
+gem "figaro", ">= 1.0.0"
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
