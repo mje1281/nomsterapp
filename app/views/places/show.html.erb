@@ -119,8 +119,7 @@
 
 <div class="clear"></div>
 
-
-<%= @place.photos.each do |p| %>
+<% @place.photos.each do |p| %>
 	<div class="col-xs-12 col-sm-6">
 		<%= image_tag p.picture %>
 		<blockquote>
@@ -129,7 +128,7 @@
 	</div>
 <% end %>
 
-<div class="clear"></div>
+
 
 
 	
